@@ -29,7 +29,29 @@ main {
   top: 0;
   left: 0;
   color: #fff;
+  padding: 3px;
 }
-.flow {
+.flow1 {
   width: 280px;
+  height: 150px;
+  background-image: url(chapter9-img/flow01.png);
+  background-size: cover;
+  background-position: bottom;
+}
+.flow2 {
+  width: 280px;
+  height: 150px;
+  background-image: url(chapter9-img/flow02.png);
+  background-size: cover;
+  background-position: bottom;
+}
+.flow3 {
+  width: 280px;
+  height: 150px;
+  background-image: url(chapter9-img/flow03.png);
+  background-size: cover;
+  background-position: bottom;
+}
+.title {
+  padding: 3px;
 }
