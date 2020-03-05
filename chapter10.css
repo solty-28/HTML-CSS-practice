@@ -12,7 +12,7 @@ main {
   width: 960px;
   margin: 50px auto;
 }
-.step {
+.box {
   width: 300px;
   border: 1px solid #aaaaaa;
   position: relative;
@@ -20,10 +20,10 @@ main {
   margin-right: 30px;
   padding: 10px;
 }
-.step:last-child {
+.box:last-child {
   margin: 0;
 }
-.number {
+.step {
   background-color: #ff6928;
   position: absolute;
   top: 0;
@@ -34,24 +34,50 @@ main {
 .flow1 {
   width: 280px;
   height: 150px;
-  background-image: url(chapter9-img/flow01.png);
+  background-image: url(chapter10-img/flow01.png);
   background-size: cover;
   background-position: bottom;
 }
 .flow2 {
   width: 280px;
   height: 150px;
-  background-image: url(chapter9-img/flow02.png);
+  background-image: url(chapter10-img/flow02.png);
   background-size: cover;
   background-position: bottom;
 }
 .flow3 {
   width: 280px;
   height: 150px;
-  background-image: url(chapter9-img/flow03.png);
+  background-image: url(chapter10-img/flow03.png);
   background-size: cover;
   background-position: bottom;
 }
 .title {
-  padding: 3px;
+  padding: 10px;
+}
+@media screen and (max-width: 768px) {
+  main {
+    width: 100%;
+  }
+  .box {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .box:last-child {
+    margin-left: 5%;
+  }
+  .flow1 {
+    width: 100%;
+    padding-top: 40%;
+  }
+  .flow2 {
+    width: 100%;
+    padding-top: 40%;
+  }
+  .flow3 {
+    width: 100%;
+    padding-top: 40%;
+  }
 }
