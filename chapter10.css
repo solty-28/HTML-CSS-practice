@@ -21,7 +21,7 @@ main {
   padding: 10px;
 }
 .box:last-child {
-  margin: 0;
+  margin-right: 0;
 }
 .step {
   background-color: #ff6928;
@@ -32,28 +32,25 @@ main {
   padding: 3px;
 }
 .flow1 {
-  width: 280px;
   height: 150px;
   background-image: url(chapter10-img/flow01.png);
   background-size: cover;
   background-position: bottom;
 }
 .flow2 {
-  width: 280px;
   height: 150px;
   background-image: url(chapter10-img/flow02.png);
   background-size: cover;
   background-position: bottom;
 }
 .flow3 {
-  width: 280px;
   height: 150px;
   background-image: url(chapter10-img/flow03.png);
   background-size: cover;
   background-position: bottom;
 }
 .title {
-  padding: 10px;
+  margin: 15px 0 5px;
 }
 @media screen and (max-width: 768px) {
   main {
@@ -64,9 +61,6 @@ main {
     margin-left: 5%;
     margin-right: 0;
     margin-bottom: 20px;
-  }
-  .box:last-child {
-    margin-left: 5%;
   }
   .flow1 {
     width: 100%;
